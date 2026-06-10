@@ -1,0 +1,35 @@
+.logo-text {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.nav-custom{
+        background-color: var(--dark-bg);
+}
+.tekup-t-next, .tekup-t-prev {
+    z-index: 2 !important;
+}
+.home-service-subtitle {
+    font-weight: bold;
+}
+.about-card {
+    border: 1px solid #f7f7f7;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: -1px 0px 20px 0px #e3e3e3;
+}
+.tekup-contact-info-wrap.wrap2 .tekup-contact-info:last-child {
+    padding-left: 0px !important;
+}
+.privacy-policy-list, .cookies-policy-list {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.privacy-policy-list li, .cookies-policy-list li {
+    list-style: disc;
+}
+
+.tekup-iconbox-icon2 img {
+    width: 100px;
+}
