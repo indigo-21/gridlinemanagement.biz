@@ -29,7 +29,7 @@
                                 <a href="mailto:info@corlevconsulting.com">info@corlevconsulting.com</a>
                             </div>
                         </div>
-                         <div class="tekup-contact-info-wrap wrap2">
+                        <div class="tekup-contact-info-wrap wrap2">
                             <div class="tekup-contact-info mb-0">
                                 <i class="fa fa-map-pin"></i>
                                 <h5>Address</h5>
@@ -42,7 +42,18 @@
                 <div class="tekup-main-form">
                     <h3>Contact Form</h3>
                     <p>Leave us your details and we will contact you as soon as possible.</p>
+                    <?php
+                    // Generate CSRF token if not already in session
+                    if (session_status() === PHP_SESSION_NONE) {
+                        session_start();
+                    }
+                    if (empty($_SESSION['csrf_token'])) {
+                        $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+                    }
+                    ?>
                     <form action="mailFunction.php" method="post">
+                        <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+                        <input type="hidden" name="redirect_page" value="contact-us">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="tekup-main-field">
@@ -116,7 +127,7 @@
 </div>
 
 <?php
-if ($_REQUEST['email-sent'] == 'success') {
+if (isset($_REQUEST['email-sent']) && $_REQUEST['email-sent'] == 'success') {
     echo '<script>
 				Swal.fire({
 				icon: "success",

@@ -77,45 +77,43 @@
   </div>
 </footer>
 
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-bottom-center modal-lg">
-        <div class="modal-content ">
-            <div class="background-modal"></div>
-            <div class="modal-body td-flex flex-column align-items-center">
-                <div class="modal-body-content ">
-                    <div class="d-inline-block ">
-                        <img src="./assets/images/cookie2.png" class="w-75 d-flex flex-column align-items-center mx-auto   " alt="">
+<div class="modal fade" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="cookieModalTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-end">     
+        <button type="button" class="" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
 
-                        <h3 class="modal-title text-color-primary counter-one__text" id="exampleModalLabel">
-                            COOKIES
-                        </h3>
-                    </div>
-
-                    <hr>
-
-                    <p class="text-justify mb-4">
-                       Cookies allow us to improve your experience by providing you with relevant content and analyzing our visits. Learn how we use cookies or adjust your preferences. 
-                    </p>
-                    <div class="d-flex flex-row align-items-center gap-2 mt-5">
-                        <button type="button" class="vl-btn3 w-50" id="acceptCookies" data-bs-dismiss="modal">
-                            Accept
-                        </button>
-                        <div class="mx-auto">
-
-                            <div class=" ">
-                                <a href="./?page=cookies-policy" class=" d-inline-block" id="clickModal">Cookies Policy</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
+        <div class="cookie-content">
+          <div class="row">
+            <div class="col-6">
+                 <h3>COOKIES </h3>
+              <p>We use cookies to improve your experience, analyze site usage, and deliver relevant content. You can accept all cookies or set your preferences.</p>
             </div>
-        </div>
-    </div>
-</div>
+            <div class="col-6">
+              
+              <img src="assets/img/cookies.png" alt="Cookies Image" class="img-fluid">
+            </div>
 
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+
+        <a class="mr-50" href="./?page=cookies-policy">Configure cookies</a>
+        <button type="button" class="tekup-default-btn" data-dismiss="modal"
+          data-bs-dismiss="modal">Accept All</button>
+        <button type="button" class="tekup-default-btn" data-dismiss="modal"
+          data-bs-dismiss="modal">Reject non-essential</button>
+
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- scripts -->
@@ -137,7 +135,20 @@
 <script src="assets/js/app.js"></script>
 
 <script>
-  $(document).ready(function () {
+  $(document).ready(function() {
+    // $('#cookieModal').modal('show');
+    let cookies = localStorage.getItem('cookies');
+
+    if (localStorage.getItem('cookies') == '0' || localStorage.getItem('cookies')) {
+      // localStorage.setItem('cookies', false);
+    } else {
+      $('#cookieModal').modal('show');
+      localStorage.setItem('cookies', '0');
+    }
+  });
+
+
+  $(document).ready(function() {
     generate();
   })
 
@@ -162,17 +173,17 @@
 
   }
 
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function() {
     if (!localStorage.getItem('cookies')) {
-        let modalEl = document.getElementById('exampleModal1');
-        let cookieModal = new bootstrap.Modal(modalEl);
-        cookieModal.show();
+      let modalEl = document.getElementById('exampleModal1');
+      let cookieModal = new bootstrap.Modal(modalEl);
+      cookieModal.show();
     }
 
-    document.getElementById('acceptCookies')?.addEventListener('click', function () {
-        localStorage.setItem('cookies', 'accepted');
+    document.getElementById('acceptCookies')?.addEventListener('click', function() {
+      localStorage.setItem('cookies', 'accepted');
     });
-});
+  });
 
   function printmsg() {
     let msgOpening = "";

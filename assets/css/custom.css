@@ -33,3 +33,51 @@
 .tekup-iconbox-icon2 img {
     width: 100px;
 }
+
+.modal-backdrop {
+    display: none;
+}
+div#cookieModal {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-header {
+    background: var(--theme-color2);
+    padding: 40px 10px;
+}
+
+div#cookieModal button.close span {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+div#cookieModal .modal-dialog.modal-dialog-centered {
+    max-width: 700px;
+    padding: 0px 20px;
+}
+
+div#cookieModal .cookie-img {
+    width: 250px;
+    margin: -80px auto 20px auto;
+    text-align: center;
+    display: block;
+}
+
+div#cookieModal .cookie-content {
+    text-align: center;
+    padding: 0 20px;
+}
+.modal-content {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.float-right{
+    float: right !important;
+}
