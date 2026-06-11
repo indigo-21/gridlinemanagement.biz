@@ -3,7 +3,7 @@
 $navLinks = [
     [
         "name" => "Home",
-        "url" => "",
+        "url" => "home",
         "dropdown" => "",
     ],
     [
@@ -32,7 +32,7 @@ $navLinks = [
     ],
     [
         "name" => "Digital Architecture",
-        "url" => "digital-archtiecture",
+        "url" => "digital-architecture",
         "dropdown" => "",
     ],
     [
@@ -395,70 +395,216 @@ $services = [
 
 $sectors = [
     [
-        "title" => "Manufacturing & Industry",
-        "subTitle" => "Optimization and control at every stage of production.",
-        "content" => "
-            <p>We help manufacturing companies more efficiently manage their supply chains, ensuring the timely availability of raw materials, parts, and equipment. From supplier selection to technology implementation, we strengthen production processes to maximize profitability and reduce downtime.</p>
-        ",
+         "title" => "Technology & Digital",
         "image" => "swt-1.jpg",
+        "content" => "
+            <p>We drive innovation in highly dynamic environments where speed, scalability, and security are key.</p>
+            <p>We work with:</p>
+            <ul>
+                <li>Software companies</li>
+                <li>Digital programs in financial services</li>
+                <li>Telecommunications</li>
+                <li>Data Centers</li>
+                <li>Cybersecurity providers</li>
+                <li>AI and analytics companies</li>
+            </ul>
+            <p>We help manage complex technology implementations, accelerate time-to-market, and ensure efficient system integration, ensuring successful and sustainable digital projects.</p>
+        ",
     
     ],
     [
-        "title" => "Construction & Real Estate Development",
-        "subTitle" => "Precise coordination for projects that can't be stopped.",
-        "content" => "
-            <p>In an industry where deadlines and logistics are critical, we facilitate communication and coordination between contractors, subcontractors, and suppliers. Our solutions improve planning, reduce delays, and ensure smoother, more transparent execution, keeping every project on time and on budget.</p>
-        ",
+            "title" => "Healthcare & Life Sciences",
         "image" => "swt-2.jpg",
+        "content" => "
+            <p>We optimize projects in highly regulated environments where accuracy, safety, and operational continuity are critical.</p>
+            <p>We collaborate with:</p>
+            <ul>
+                <li>Hospitals</li>
+                <li>Medical device companies</li>
+                <li>Pharmaceutical companies</li>
+                <li>Biotechnology organizations</li>
+                <li>Healthcare IT providers</li>
+            </ul>
+            <p>We support the execution of clinical and technological initiatives, improving operational efficiency, regulatory compliance, and the quality of health services.</p>
+        ",
     ],
     [
-        "title" => "Retail & E-Commerce",
-        "subTitle" => "Agile supply chains for changing markets.",
-        "content" => "
-            <p>We help retail and e-commerce companies strengthen their local and international sourcing networks. We optimize inventory management, purchasing processes, and supplier relationships, driving faster, more competitive, and end-customer-oriented operations.</p>
-        ",
+         "title" => "Financial Services & Insurance",
         "image" => "swt-3.jpg",
+        "content" => "
+            <p>We accompany financial institutions in their transformation towards more digital, agile, and customer-centric models.</p>
+            <p>Experience in:</p>
+            <ul>
+                <li>Banks</li>
+                <li>Credit unions</li>
+                <li>Insurance companies</li>
+                <li>FinTech organizations</li>
+                <li>Payment companies</li>
+            </ul>
+            <p>We manage strategic programs that optimize costs, improve the customer experience, and ensure regulatory compliance in a highly competitive environment.</p>
+        ",
     ],
     [
-        "title" => "Health and Biotechnology",
-        "subTitle" => "Excellence and traceability in every critical supply.",
-        "content" => "
-            <p>We support organizations in the health and biotechnology sectors in acquiring materials, equipment, and services that meet the highest quality and safety standards. We implement rigorous controls and validation processes that ensure operational continuity and regulatory compliance.</p>
-        ",
+        "title" => "Manufacturing & Supply Chain",
         "image" => "swt-4.jpg",
+        "content" => "
+            <p>We improve operational efficiency in industries where process optimization and logistics are key to profitability.</p>
+            <p>We work with:</p>
+            <ul>
+                <li>Automotive</li>
+                <li>Aerospace</li>
+                <li>Food & Beverage</li>
+                <li>Industrial manufacturing</li>
+                <li>Logistics companies</li>
+            </ul>
+            <p>We help implement continuous improvement projects, digitize operations, and optimize the supply chain to increase productivity and resilience.</p>
+        ",
     ],
     [
-        "title" => "Technology & IT Services",
-        "subTitle" => "Innovation and efficiency for digital ecosystems.",
-        "content" => "
-            <p>We work with technology companies to integrate automation, supplier management, and digital procurement solutions. From specialized software to real-time dashboards, we drive modernization and scalability of your operations.</p>
-        ",
+         "title" => "Real Estate & Facilities",
         "image" => "swt-5.jpg",
+        "content" => "
+            <p>We manage projects that transform physical spaces into smart, efficient, and sustainable environments.</p>
+            <p>Experience in:</p>
+            <ul>
+                <li>Property management companies</li>
+                <li>Smart building programs</li>
+                <li>Campus expansion projects</li>
+                <li>Facility upgrades</li>
+            </ul>
+            <p>We ensure the efficient execution of infrastructure projects by optimizing costs, timelines, and quality in each phase.</p>
+        ",
     ],
     [
-        "title" => "Energy and Sustainability",
-        "subTitle" => "Responsible management with positive impact.",
-        "content" => "
-            <p>We accompany companies in the energy sector in the search for eco-efficient materials, sustainable suppliers, and clean technologies. Our strategies promote profitability without compromising environmental commitment, balancing growth and social responsibility.</p>
-        ",
+       "title" => "Retail & Consumer Trade",
         "image" => "swt-6.jpg",
+        "content" => "
+            <p>We support companies in the evolution towards omnichannel, customer-centric, and highly competitive models.</p>
+            <p>We collaborate with:</p>
+            <ul>
+                <li>Retail chains</li>
+                <li>E-commerce operations</li>
+                <li>Franchise networks</li>
+                <li>Store deployment initiatives</li>
+            </ul>
+            <p>We manage expansion, digitalization, and operational optimization initiatives that improve the customer experience and increase profitability.</p>
+        ",
+    ],
+
+];
+
+$digitals = [
+    [
+        "title" => "Project Management Platforms",
+        "content" => "
+            <p>We use leading tools like ClickUp, Smartsheet, and Wrike to centralize project planning, execution, and tracking in dynamic environments.</p>
+            <p>These platforms allow:</p>
+            <ul>
+                <li>Comprehensive management of tasks, milestones, and dependencies</li>
+                <li>Real-time visualization of progress (dashboards, timelines, Kanban)</li>
+                <li>Automating repetitive workflows</li>
+                <li>Collaboration between distributed teams</li>
+            </ul>
+            <p>The result is greater operational visibility, alignment between stakeholders, and more agile execution, reducing delays and improving productivity.</p>
+        ",
     ],
     [
-        "title" => "Hospitality & Food Services",
-        "subTitle" => "Flawless experiences thanks to precise management.",
+        "title" => "Portfolio Management & Enterprise Projects",
         "content" => "
-            <p>Restaurants, hotels, and franchises rely on us to efficiently manage their supplier network, control costs, and maintain consistent quality standards. We optimize logistics and sourcing processes to ensure that every customer experience is exceptional.</p>
+            <p>For organizations with multiple concurrent initiatives, we implement solutions such as Microsoft Project Portfolio Management, Planview, and Primavera P6, designed for enterprise-level management.</p>
+            <p>These tools allow:</p>
+            <ul>
+                <li>Strategic prioritization of projects according to impact and ROI</li>
+                <li>Centralized management of complex portfolios</li>
+                <li>Efficient resource allocation at scale</li>
+                <li>Scenario analysis and executive decision-making</li>
+            </ul>
+            <p>This facilitates management aligned with business objectives, optimizes investments, and maximizes portfolio value.</p>
         ",
-        "image" => "swt-7.jpg",
     ],
     [
-        "title" => "Profile of Our Clients",
-        "subTitle" => "",
+        "title" => "Financial and Cost Control",
         "content" => "
-            <p>We work with SMBs looking to scale their operations. These startups need to structure their supply chain, established companies that want to outsource acquisitions, and government or institutional agencies that require coordination and regulatory compliance.</p>
-            <p>Each of our clients shares the same goal: to do more with less through more transparent, agile, and efficient processes.</p>
+            <p>We integrate tools such as QuickBooks and Xero for operational management, along with enterprise platforms such as SAP PS, Oracle NetSuite, and Kahua, enabling robust financial control.</p>
+            <p>Key capabilities:</p>
+            <ul>
+                <li>Real-time tracking of budgets and expenses</li>
+                <li>Variance analysis</li>
+                <li>Integration with financial ERP systems</li>
+                <li>Forecasting and cost projections</li>
+            </ul>
+            <p>This guarantees accurate, transparent, and profitability-oriented financial management, avoiding cost overruns and improving the project's economic control.</p>
         ",
-        "image" => "swt-8.jpg",
+    ],
+    [
+        "title" => "Collaboration and Document Management",
+        "content" => "
+            <p>We enable secure collaborative environments through tools like Google Workspace, Slack, Dropbox Business, and Egnyte, which are essential for modern, distributed teams.</p>
+            <p>Including:</p>
+            <ul>
+                <li>Seamless communication between teams and stakeholders</li>
+                <li>Centralized document and version management</li>
+                <li>Secure and controlled access to information</li>
+                <li>Full traceability of changes and approvals</li>
+            </ul>
+            <p>This improves operational efficiency, reduces errors, and strengthens collaboration on complex projects.</p>
+        ",
+    ],
+    [
+        "title" => "Risk, Compliance, and Governance",
+        "content" => "
+            <p>We implement solutions such as Active Risk Manager, Resolver, and AuditBoard, along with ESG reporting tools, to ensure comprehensive risk management and regulatory compliance.</p>
+            <p>Our approach allows you to:</p>
+            <ul>
+                <li>Proactive risk identification and monitoring</li>
+                <li>Impact and probability assessment</li>
+                <li>Compliance with international regulations and standards</li>
+                <li>Structured and auditable governance</li>
+            </ul>
+            <p>This strengthens organizational resilience and decision-making based on control and transparency.</p>
+        ",
+    ],
+    [
+        "title" => "Data and Reports for Strategic Decisions",
+        "content" => "
+            <p>We turn data into actionable insights using tools like Power BI, Looker, and custom SQL solutions.</p>
+            <p>These capabilities allow:</p>
+            <ul>
+                <li>Creation of interactive dashboards in real time</li>
+                <li>Integration of multiple data sources</li>
+                <li>Predictive analytics and trend analysis</li>
+                <li>Automated executive reporting</li>
+            </ul>
+            <p>In this way, organizations can make decisions with greater accuracy, speed, and analytical support.</p>
+        ",
+    ],
+    [
+        "title" => "Agile Environments and DevOps",
+        "content" => "
+            <p>We support continuous delivery and innovation through tools such as Jira Software, Rally, Miro, and Mural, which are key in agile and technological environments.</p>
+            <p>We facilitate:</p>
+            <ul>
+                <li>Backlog management and sprint planning</li>
+                <li>Visual collaboration for distributed teams</li>
+                <li>Integration between development, operations, and business</li>
+                <li>Continuous improvement through iterative cycles</li>
+            </ul>
+            <p>This enables greater adaptability, faster delivery, and alignment with customer needs.</p>
+        ",
+    ],
+    [
+        "title" => "Security and Privacy",
+        "content" => "
+            <p>Information protection is a fundamental pillar of our digital architecture. We implement advanced security and compliance solutions.</p>
+            <p>Including:</p>
+            <ul>
+                <li>Multi-factor authentication (MFA) and identity management</li>
+                <li>Endpoint and network protection</li>
+                <li>Encryption of data in transit and at rest</li>
+                <li>Compliance with security and privacy standards</li>
+            </ul>
+            <p>This ensures secure environments, reducing vulnerabilities and protecting critical business assets.</p>
+        ",
     ]
 ];
 

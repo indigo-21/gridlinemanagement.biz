@@ -19,15 +19,13 @@
       <div class="row">
         <div class="col-lg-12">
      
-          <div class="tekup-single-post-content-wrap">
-            <h2 class="text-center">Our Digital Engine</h2>
+          <div class="tekup-default-content text-center">
+            <h2 class="text-center">Our Firm</h2>
             <h4>We transform project management into strategic results</h4>
-            <div class="entry-content ">
+           
             <p>We are a consulting firm specializing in project management, strategy, and digital transformation, dedicated to helping organizations in Canada and around the world execute complex initiatives with precision, control, and a focus on results.</p>
             <p>Our commitment goes beyond management: we become strategic partners to our clients, providing experience, methodology, and a clear vision for sustainable growth.</p>
             
-
-
               <div class="tekup-single-thumb">
                 <div class="row">
                   <div class="col-lg-6">
@@ -38,63 +36,93 @@
                   </div>
                 </div>
               </div>
-                <h2>Operational and Project Management Tools</h2>
-                <p>Full coordination for smarter operations.</p>
 
-                <p>We use ERP systems such as SAP Business One and Oracle NetSuite to centralize purchasing, inventory, and finance in a single environment. These platforms provide complete visibility into the operation and enable decisions to be made based on real data.</p>
-                <p>In turn, we integrate project management platforms such as Asana, Monday.com, or ClickUp to coordinate tasks, monitor progress, and facilitate fluid communication between customers, suppliers, and internal teams.</p>
-                <p>We also use CRM software such as HubSpot or Zoho CRM, which allows us to track business relationships, interaction history, and growth opportunities.</p>
-                <p>Finally, we manage suppliers through specialized systems such as SAP Ariba, Coupa, and Precoro, which provide full traceability for contracts, performance, and compliance.</p>
+            </div>
 
-             <div class="tekup-single-thumb">
+            <div class="section tekup-section-padding">
+              <div class="container">
                 <div class="row">
-                  <div class="col-lg-6">
-                    <img src="assets/img/our-digital-engine/ode-3.jpg" alt="">
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="tekup-thumb">
+                      <img src="assets/img/home-4.jpg" alt="">
+                    </div>
                   </div>
-                  <div class="col-lg-6">
-                    <img src="assets/img/our-digital-engine/ode-4.jpg" alt="">
+                  <div class="col-xl-5 offset-xl-1 col-lg-6 d-flex align-items-center">
+                    <div class="tekup-default-content">
+                      <h2>Who We Are</h2>
+                      <p>We are a multidisciplinary team of experts that combines technical expertise, strategic thinking, and a human approach. We work together with our clients to solve real challenges, adapting to their needs and context.</p>
+                      <p>We believe in a close, practical, and impact-oriented consultancy, where each project is an opportunity to generate tangible value.</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
-                <h2>Data Analytics</h2>
-                <p>From information to strategic knowledge.</p>
-                <p>We know that what is not measured cannot be improved. That's why we use business intelligence dashboards such as Power BI, Tableau, or Google Data Studio to monitor key metrics including supplier performance, costs, lead times, and productivity.</p>
-                <p>In addition, we automate administrative and reporting tasks using tools such as Zapier, Make, and UiPath, freeing up time for strategic decisions and reducing repetitive work.</p>
-
-                 <div class="tekup-single-thumb">
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <img src="assets/img/our-digital-engine/ode-5.jpg" alt="">
-                      </div>
-                      <div class="col-lg-6">
-                        <img src="assets/img/our-digital-engine/ode-6.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-                <h2>Communication and Collaboration</h2>
-                <p>Total connectivity, without time or place limits.</p>
-                <p>Effective coordination starts with fluid communication. That's why we work with cloud collaboration tools like Microsoft 365, Google Workspace, and Slack, enabling document sharing, meeting management, and real-time updates across distributed teams.</p>
-                <p>We also streamline contractual processes through digital signature solutions such as DocuSign and PandaDoc, ensuring secure, fast, and frictionless agreements.</p>
-
-                 <div class="tekup-single-thumb">
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <img src="assets/img/our-digital-engine/ode-7.jpg" alt="">
-                      </div>
-                      <div class="col-lg-6">
-                        <img src="assets/img/our-digital-engine/ode-8.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-
-                <h2>Technology Integration & Marketing Support</h2>
-                <p>Technology that drives business connections.</p>
-                <p>For projects that require interaction with multiple market players, we use electronic procurement portals that allow us to manage requests for quotation (RFQs), compare bids, and facilitate supplier participation in digital environments.</p>
-                <p>We complement this ecosystem with marketing automation platforms such as Mailchimp and ActiveCampaign, helping clients connect with suppliers and strategic partners more efficiently.</p>
-                <p>Finally, we integrate web and SEO tools such as WordPress CMS, SEMrush, and HubSpot Marketing Hub to strengthen the digital presence of companies seeking growth in the online environment.</p>
-
             </div>
+            <!-- End section -->
+
+          <div class="section tekup-section-padding">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                  <h2>Our Mission</h2>
+                      <p>To drive our clients' success through efficient, strategic, and results-driven project management solutions to optimize resources, reduce risk, and maximize the value of their initiatives.</p>
+                      <h2>Our Vision</h2>
+                      <p>To be a benchmark consultancy in Canada in project management and digital transformation, recognized for its excellence, innovation, and ability to generate real and sustainable impact in organizations.</p>
+
+
+                  </div>
+                  <div class="col-xl-5 offset-xl-1 col-lg-6 d-flex align-items-center">
+                    <div class="tekup-default-content">
+                        <div class="tekup-thumb">
+                      <img src="assets/img/home-4.jpg" alt="">
+                    </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End section -->
+
+
+            <div class="section tekup-section-padding">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="tekup-thumb">
+                      <img src="assets/images/v1/thumb1.png" alt="">
+                      <div class="tekup-thumb-card">
+                        <img src="assets/images/v3/Satisfaction.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-5 offset-xl-1 col-lg-6 d-flex align-items-center">
+                    <div class="tekup-default-content">
+                      <h2>Our Values</h2>
+                      <p>Our values define how we work, how we relate to each other, and how we generate results:</p>
+                      <div class="tekup-icon-list">
+                        <ul>
+                          <li><i class="ri-check-line"></i>Excellence</li>
+                          <p>We seek the highest standards in each project, taking care of every detail to guarantee consistent, high-quality results.</p>
+                          <li><i class="ri-check-line"></i>Results-oriented</li>
+                          <p>We focus on the real impact. Every action, recommendation, and delivery is aligned with generating tangible value for the customer.</p>
+                          <li><i class="ri-check-line"></i>Integrity and transparency</li>
+                          <p>We act with honesty, clarity, and responsibility, building relationships based on trust.</p>
+                          <li><i class="ri-check-line"></i>Collaboration</li>
+                          <p>We work as an extension of the client's team, fostering open communication and collaboration.</p>
+                          <li><i class="ri-check-line"></i>Innovation</li>
+                          <p>We embrace new technologies, methodologies, and approaches to stay ahead of the curve and deliver relevant solutions.</p>
+                        </ul>
+                      </div>
+                      <div class="tekup-extra-mt">
+                        <a class='tekup-default-btn' href='about-us.html'>More About <i class="ri-arrow-right-up-line"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End section -->
+
           </div>
         </div>
 
